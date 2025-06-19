@@ -1,0 +1,35 @@
+{
+    "messages": [
+      {
+        "id": "msg3",
+        "properties": {
+          "Sub": 0.5,
+          "Pol": 0.3,
+          "Fea": 0.2,
+          "Ang": 0.1,
+          "Ant": 0.6,
+          "Tru": 0.7,
+          "Sur": 0.3,
+          "Sad": 0.2,
+          "Dis": 0.1,
+          "Joy": 0.8
+        }
+      },
+      {
+        "id": "msg4",
+        "properties": {
+          "Sub": 0.6,
+          "Pol": 0.4,
+          "Fea": 0.5,
+          "Ang": 0.4,
+          "Ant": 0.3,
+          "Tru": 0.2,
+          "Sur": 0.5,
+          "Sad": 0.6,
+          "Dis": 0.4,
+          "Joy": 0.1
+        }
+      }
+    ]
+  }
+  

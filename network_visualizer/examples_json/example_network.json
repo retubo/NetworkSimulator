@@ -1,0 +1,143 @@
+{
+    "nodes": [
+      {
+        "id": "usr1",
+        "name": "Juan",
+        "x": -107,
+        "y": -111,
+        "state": "waiting",
+        "value": 80,
+        "properties": {
+          "in_Sub": 0.4,
+          "in_Pol": 0.5,
+          "in_Fea": 0.2,
+          "in_Ang": 0.3,
+          "in_Ant": 0.4,
+          "in_Tru": 0.6,
+          "in_Sur": 0.5,
+          "in_Sad": 0.3,
+          "in_Dis": 0.2,
+          "in_Joy": 0.7,
+          "out_Sub": 0.6,
+          "out_Pol": 0.7,
+          "out_Fea": 0.3,
+          "out_Ang": 0.2,
+          "out_Ant": 0.5,
+          "out_Tru": 0.8,
+          "out_Sur": 0.4,
+          "out_Sad": 0.2,
+          "out_Dis": 0.1,
+          "out_Joy": 0.9
+        },
+        "messages": []
+      },
+      {
+        "id": "usr3",
+        "name": "Laura",
+        "x": -143,
+        "y": 131,
+        "state": "waiting",
+        "value": 60,
+        "properties": {
+          "in_Sub": 0.8,
+          "in_Pol": 0.6,
+          "in_Fea": 0.5,
+          "in_Ang": 0.6,
+          "in_Ant": 0.4,
+          "in_Tru": 0.2,
+          "in_Sur": 0.3,
+          "in_Sad": 0.7,
+          "in_Dis": 0.5,
+          "in_Joy": 0.2,
+          "out_Sub": 0.3,
+          "out_Pol": 0.5,
+          "out_Fea": 0.6,
+          "out_Ang": 0.7,
+          "out_Ant": 0.3,
+          "out_Tru": 0.1,
+          "out_Sur": 0.4,
+          "out_Sad": 0.6,
+          "out_Dis": 0.3,
+          "out_Joy": 0.2
+        },
+        "messages": []
+      },
+      {
+        "id": "usr4",
+        "name": "Mario",
+        "x": 83,
+        "y": 205,
+        "state": "waiting",
+        "value": 60,
+        "properties": {
+          "in_Sub": 0.5,
+          "in_Pol": 0.5,
+          "in_Fea": 0.4,
+          "in_Ang": 0.5,
+          "in_Ant": 0.6,
+          "in_Tru": 0.5,
+          "in_Sur": 0.6,
+          "in_Sad": 0.4,
+          "in_Dis": 0.3,
+          "in_Joy": 0.5,
+          "out_Sub": 0.4,
+          "out_Pol": 0.6,
+          "out_Fea": 0.4,
+          "out_Ang": 0.3,
+          "out_Ant": 0.5,
+          "out_Tru": 0.7,
+          "out_Sur": 0.4,
+          "out_Sad": 0.3,
+          "out_Dis": 0.2,
+          "out_Joy": 0.6
+        },
+        "messages": []
+      },
+      {
+        "id": "usr2",
+        "name": "usr2",
+        "x": 127,
+        "y": -12,
+        "state": "waiting",
+        "value": 60,
+        "properties": {
+          "in_Sub": 0.3,
+          "in_Pol": 0.2,
+          "in_Fea": 0.4,
+          "in_Ang": 0.3,
+          "in_Ant": 0.4,
+          "in_Tru": 0.6,
+          "in_Sur": 0.4,
+          "in_Sad": 0.2,
+          "in_Dis": 0.3,
+          "in_Joy": 0.5,
+          "out_Sub": 0.5,
+          "out_Pol": 0.4,
+          "out_Fea": 0.3,
+          "out_Ang": 0.2,
+          "out_Ant": 0.5,
+          "out_Tru": 0.6,
+          "out_Sur": 0.5,
+          "out_Sad": 0.2,
+          "out_Dis": 0.2,
+          "out_Joy": 0.7
+        },
+        "messages": []
+      }
+    ],
+    "links": [
+      {
+        "source": "usr1",
+        "target": "usr3"
+      },
+      {
+        "source": "usr3",
+        "target": "usr4"
+      },
+      {
+        "source": "usr2",
+        "target": "usr1"
+      }
+    ]
+  }
+  
