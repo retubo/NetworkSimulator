@@ -7,7 +7,7 @@ Este proyecto es un motor de simulación interactivo que modela la propagación 
 1. Clona este repositorio:
    ```bash
    git clone https://github.com/retubo/NetworkSimulator.git
-   cd NetworkSimulator/netowrk_visualizer
+   cd NetworkSimulator/netowork_visualizer
    ```
 
 2. Instala las dependencias:
