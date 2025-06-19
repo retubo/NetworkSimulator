@@ -6,8 +6,9 @@ Este proyecto es un motor de simulación interactivo que modela la propagación 
 
 1. Clona este repositorio:
    ```bash
-   git clone https://github.com/retubo/nombre-del-repositorio.git
-   cd nombre-del-repositorio
+   git clone https://github.com/retubo/NetworkSimulator.git
+   cd NetworkSimulator
+   ```
 
 2. Instala las dependencias:
    ```bash
